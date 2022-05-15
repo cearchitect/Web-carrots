@@ -1,0 +1,36 @@
+@mixin cards {
+    border:solid 1px $noactive-color;
+    border-radius:12px;
+    width:24%;
+    padding:10px;
+
+}
+
+@mixin images{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 12px;
+}
+
+@mixin buttons {
+    background-color: $font-accent;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: $font-headline;
+    border-radius: 12px;
+    border: solid 2px #46740A;
+    padding: 5px 12px;
+}
+
+@mixin footer-column {
+    font-family: $font-headline;
+    font-size: 18px;
+    font-weight: 600;
+    color: $font-color;    
+}
+
+
+
+
